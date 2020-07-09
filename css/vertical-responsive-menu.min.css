@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+
 .collapse_menu .collapse_menu--icon,.vertical_nav{
 	-moz-transition:all .3s ease-out;
 	-webkit-transition:all .3s ease-out;
@@ -30,7 +32,7 @@
 }
 
 .toggle_menu i:hover {
-    color: #ed2a26;
+    color: #139893;
 }
 	
 .vertical_nav {
@@ -77,12 +79,12 @@
 
 .menu--link:hover {
 	background: #ffecec;
-	color: #ed2a26 !important;
+	color: #139893 !important;
 }
 
 .menu--link.active {
 	background: #ffecec;
-	color: #ed2a26;
+	color: #139893;
 }
 
 .menu--item__has_sub_menu .menu--link:after {
@@ -116,7 +118,7 @@
     font-weight: 500;
     white-space: nowrap;
     cursor: pointer;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Cairo', sans-serif;
 }
 
 .menu--link:hover,.menu--link:hover .menu--label {
@@ -151,14 +153,14 @@
 	padding-left: 50px;
 	padding-right: 16px;
 	font-size: 14px;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Cairo', sans-serif;
 	font-weight: 400;
 	color: #333;
 	text-decoration: none;
 }
 
 .sub_menu--link:hover {
-	color: #ed2a26 !important;
+	color: #139893 !important;
 	background: #ffecec;
 }
 
@@ -231,7 +233,7 @@
     height: 60px;
     padding: 0;
     border: 0;
-    background: #ed2a26;
+    background: #139893;
     color: #fff;
     font-size: 30px;
     margin: 0;
@@ -241,7 +243,7 @@
 
 .collapse_menu:hover {
 	color: #fff;
-	background: #af1f24;
+	background: #287a78;
 }
 
 .collapse_menu .collapse_menu--icon {
