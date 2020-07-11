@@ -1341,10 +1341,10 @@ i.icon1 {
 }
 
 .value_icon i {
-	font-size: 36px;
+    font-size: 36px;
     margin-right: 0;
-    color: #333;
-    background: #ffecec;
+    color: #fff;
+    background: #139893;
     border-radius: 10px;
     padding: 10px 6px;
     display: inline-block;
