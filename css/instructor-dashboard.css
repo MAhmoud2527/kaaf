@@ -14,6 +14,7 @@ Table Of Content
 /* ================================================================================== 
 Fonts
 ===================================================================================== */
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap');
 /* ================================================================================== 
 Reset Css
@@ -370,7 +371,7 @@ input[type=text] {
 }
 
 .left_footer a:hover {
-	color: #ed2a26 !important;
+	color: #139893 !important;
 }
 
 .left_footer_content {
@@ -630,7 +631,7 @@ i.icon1 {
 }
 
 .dp_link_12:hover {
-    color: #ed2a26 !important;
+    color: #139893 !important;
 }
 
 .ui.dropdown .menu>.channel_item {
@@ -1108,7 +1109,10 @@ i.icon1 {
     border: 1px solid #efefef;
 	padding: 20px;
 }
-
+h1:first-child, h2:first-child, h3:first-child, h4:first-child, h5:first-child {
+    margin-top: auto;
+    font-family: inherit!important;
+}
 .card_dash_left {
     float: right;
 }
@@ -1139,6 +1143,7 @@ i.icon1 {
     margin-bottom: 15px;
     text-align: right;
     margin-top: 0;
+    font-family: inherit;
 }
 
 .card_dash_left span {
@@ -1148,7 +1153,8 @@ i.icon1 {
     background: #efefef;
     padding: 5px 10px;
     border-radius: 10px;
-	color: #fff;
+    color: #fff;
+    font-family: inherit;
 }
 
 .crdbg_1 {
@@ -1172,11 +1178,12 @@ i.icon1 {
     font-weight: 500;
     font-family: 'Roboto', sans-serif;
     color: #fff;
-    background: #ed2a26;
+    background: #139893;
     padding: 0px 20px;
     border-radius: 25px;
     border: 0;
     height: 40px;
+    transition: all .5s;
 }
 
 .create_btn_dash:hover {
@@ -1198,7 +1205,9 @@ i.icon1 {
     float: right;
 	display: flex;
 	padding: 4px 0;
-	flex-direction: row-reverse;
+    flex-direction: row-reverse;
+    direction: ltr;
+    font-family: inherit;
 }
 
 .card_dash_right1 {
@@ -1450,18 +1459,18 @@ i.icon1 {
 }
 
 .courses_performance .owl-nav .owl-prev:hover {
-	color: #fff !important;
-	opacity: 1;
-	background: #ed2a26 !important;
-	border: 1px solid #ed2a26 !important;
-	box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.07);
+    color: #fff !important;
+    opacity: 1;
+    background: #139893 !important;
+    border: 1px solid #139893 !important;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.07);
 }	
 
 .courses_performance .owl-nav .owl-next:hover {
 	color: #fff !important;
 	opacity: 1;
-	border: 1px solid #ed2a26 !important;
-	background: #ed2a26 !important;
+    background: #139893 !important;
+    border: 1px solid #139893 !important;
 	box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.07);
 }
 
@@ -1561,16 +1570,16 @@ i.icon1 {
 .edututs_news .owl-nav .owl-prev:hover {
 	color: #fff !important;
 	opacity: 1;
-	background: #ed2a26 !important;
-	border: 1px solid #ed2a26 !important;
+    background: #139893 !important;
+    border: 1px solid #139893 !important;
 	box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.07);
 }	
 
 .edututs_news .owl-nav .owl-next:hover {
 	color: #fff !important;
 	opacity: 1;
-	border: 1px solid #ed2a26 !important;
-	background: #ed2a26 !important;
+    background: #139893 !important;
+    border: 1px solid #139893 !important;
 	box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.07);
 }
 
@@ -1591,7 +1600,7 @@ i.icon1 {
     font-weight: 400;
     font-family: 'Roboto', sans-serif;
     color: #686f7a;
-    text-align: left;
+    text-align: right;
     margin-bottom: 0;
     line-height: 24px;
 }
@@ -1602,7 +1611,7 @@ i.icon1 {
     font-weight: 500;
     font-family: 'Roboto', sans-serif;
     color: #333;
-    text-align: left;
+    text-align: right;
     margin-bottom: 0;
     line-height: 24px;
     margin-top: 15px;
@@ -1716,17 +1725,18 @@ i.icon1 {
 	background: #fff;
     border-radius: 5px;
     border: 1px solid #efefef;
-	flex-direction: row-reverse;
+    flex-direction: row-reverse;
+    direction: ltr;
 }
 
 .my_courses_tabs .nav-pills .nav-link.active, .my_courses_tabs .nav-pills .show>.nav-link {
     color: #fff;
-    background-color: #ed2a26 !important;
+    background-color: #139893 !important;
 }
 
 .my_courses_tabs .nav-pills .nav-link:hover {
     color: #fff !important;
-    background-color: #ed2a26 !important;
+    background-color: #139893 !important;
 }
 
 .my_courses_tabs .nav-link {
@@ -2008,15 +2018,15 @@ table {
 
 .datepicker--cell.-selected-, .datepicker--cell.-selected-.-current- {
     color: #fff;
-    background: #ed2a26 !important;
+    background: #139893 !important;
 }
 
 .datepicker--day-name {
-    color: #ed2a26 !important;
+    color: #139893 !important;
 }
 
 .datepicker--cell.-current- {
-    color: #ed2a26 !important;
+    color: #139893 !important;
 }
 
 .datepicker {
@@ -2223,7 +2233,7 @@ table {
 }
 
 .text-success1 {
-    color: #ed2a26 !important;
+    color: #139893 !important;
 }
 
 .thumb_img img {
@@ -2569,7 +2579,7 @@ table {
     font-weight: 500 !important;
     font-family: 'Roboto', sans-serif !important;
     color: #fff !important;
-    background: #ed2a26 !important;
+    background: #139893 !important;
     padding: 0px 20px !important;
     border-radius: 25px !important;
     border: 0 !important;
@@ -2818,16 +2828,16 @@ table {
 
 .ui.checkbox input:checked~.box:before, .ui.checkbox input:checked~label:before {
     background: #fff;
-    border-color: #ed2a26 !important;
+    border-color: #139893 !important;
 }
 
 .ui.radio.checkbox input:checked~.box:after, .ui.radio.checkbox input:checked~label:after {
-    background-color: #ed2a26 !important;
+    background-color: #139893 !important;
 }
 
 .ui.checkbox.mncheck input:checked~.box:after, .ui.checkbox.mncheck input:checked~label:after {
     opacity: 1;
-    color: #ed2a26 !important;
+    color: #139893 !important;
     font-size: 10px !important;
     border-radius: 100%;
     margin-top: 2px;
@@ -3483,7 +3493,7 @@ i.icon8 {
 }
 
 .progress1 .progress-bar {
-    background-color: #ed2a26 !important;
+    background-color: #139893 !important;
 }
 
 .w-70 {
@@ -3774,7 +3784,7 @@ i.icon8 {
 .ui.active.selection.vchrt-dropdown {
     border-top-left-radius: 1.5rem !important;
     border-top-right-radius: 1.5rem !important;
-	border: 1px solid #ed2a26 !important;
+	border: 1px solid #139893 !important;
 }
 
 .date_list152 a {
