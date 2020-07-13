@@ -343,7 +343,7 @@ input[type=text] {
     font-size: 10px;
     font-weight: 500;
     color: #fff;
-    background: #ed2a26;
+    background: #139893;
     overflow: hidden;
     width: 5px;
     height: 5px;
@@ -490,7 +490,7 @@ i.icon1 {
     position: absolute;
     top: 3px;
     right: 8px;
-    background: #ed2a26;
+    background: #139893;
     color: #fff;
     width: 16px;
     height: 16px;
@@ -514,7 +514,7 @@ i.icon1 {
     font-weight: 500;
     font-family: 'Roboto', sans-serif;
     color: #fff;
-    background: #ed2a26;
+    background: #139893;
     padding: 9px 15px;
     border-radius: 25px;
 	margin-left: 10px;
@@ -735,7 +735,7 @@ i.icon1 {
     border-radius: 20px;
     color: #fff;
     font-family: 'Roboto', sans-serif;
-    background: #ed2a26;
+    background: #139893;
     font-size: 14px;
     font-weight: 500;
     display: inline-block;
@@ -1620,7 +1620,7 @@ h1:first-child, h2:first-child, h3:first-child, h4:first-child, h5:first-child {
 }
 
 .analyics_pr {
-	color: #ed2a26;
+	color: #139893;
 	font-weight: 500;
 }
 
@@ -1703,7 +1703,7 @@ h1:first-child, h2:first-child, h3:first-child, h4:first-child, h5:first-child {
     font-size: 12px;
     font-weight: 500;
     margin-left: 10px;
-    background: #ed2a26;
+    background: #139893;
     color: #fff;
     padding: 5px 10px;
     border-radius: 5px;
@@ -1717,7 +1717,7 @@ h1:first-child, h2:first-child, h3:first-child, h4:first-child, h5:first-child {
 
 .my_crse_nav .nav-item {
 	text-align: center;
-    width: 20%;
+    width: 25%;
 }
 
 .my_crse_nav {
@@ -1840,7 +1840,7 @@ table {
 }
 
 .course_active {
-    color: #ed2a26;
+    color: #139893;
 }
 
 .ucp-table tbody tr td {
@@ -2049,7 +2049,7 @@ table {
     color: #fff;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
-    background: #ed2a26;
+    background: #139893;
 	width: 100%;
 	text-align: center;
 }
@@ -2101,7 +2101,7 @@ table {
     color: #fff;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
-    background: #ed2a26;
+    background: #139893;
 	text-align: center;
 	padding: 0 30px;
 }
@@ -2275,7 +2275,7 @@ table {
 #add-course-tab .step-steps > li:before {
 	background-color: #ededed;
     height: 8px;
-    left: 50%;
+    right: 50%;
     top: 18px;
     width: 100%;
     -webkit-transition: all 0.3s;
@@ -2318,7 +2318,7 @@ table {
 
 #add-course-tab .step-steps > li.active > a > .number,
 #add-course-tab .step-steps > li.done > a > .number {
-	background-color: #ed2a26;
+	background-color: #139893;
 }
 
 #add-course-tab .step-steps > li.active > a > .number:before,
@@ -2332,7 +2332,7 @@ table {
 }
 
 #add-course-tab .step-steps > li.done:before {
-	background-color: #ed2a26;
+	background-color: #139893;
 }
 
 #add-course-tab .step-steps > li.done > a > .number:after {
@@ -2348,7 +2348,8 @@ table {
 }
 
 #add-course-tab > .step-content .title-icon {
-	margin-bottom: 25px;
+    margin-bottom: 25px;
+    direction: ltr;
 }
 
 #add-course-tab > .step-content .default-form .form-group {
@@ -2448,8 +2449,8 @@ table {
     padding: 1.3rem .75rem;
     line-height: 0;
     color: #fff;
-    content: "Upload File";
-    background-color: #ed2a26;
+    content: "رفع الملف";
+    background-color: #139893;
     border-left: inherit;
     border-radius: 10rem 0 0 10rem;
 }
@@ -2514,7 +2515,7 @@ table {
 }
 
 .badge_num {
-    background: #ed2a26;
+    background: #139893;
     color: #fff;
     font-weight: 500;
     font-family: 'Roboto', sans-serif;
@@ -2529,7 +2530,7 @@ table {
 }
 
 .badge_num2 {
-    background: #ed2a26;
+    background: #139893;
     color: #fff;
     font-weight: 500;
     font-family: 'Roboto', sans-serif;
@@ -2600,14 +2601,17 @@ table {
     padding: 40px 30px 0;
     border-top: 1px solid #efefef;
 }
-
+.price_title{
+    direction: rtl;
+    display: flex;
+}
 .price_title h4 {
 	font-size: 16px;
     font-weight: 500;
     font-family: 'Roboto', sans-serif;
     color: #333;
 	text-align: left;
-	margin-bottom: 15px;
+    margin-bottom: 15px;
 }
 
 .price_title i {
@@ -2733,12 +2737,14 @@ table {
     padding: 1.3rem 2rem;
     line-height: 0;
     color: #fff;
-    content: "Upload File";
-    background-color: #ed2a26;
+    content: "رفع الملف";
+    background-color: #139893;
     border-left: inherit;
     border-radius: 10rem 0 0 10rem;
 }
-
+.custom-file-input:lang(en)~.custom-file-label::after{
+    content: "رفع الملف"!important;
+}
 #add-course-tab .step-footer.step-tab-pager {
 	-webkit-box-align: center;
 	-ms-flex-align: center;
@@ -2756,7 +2762,7 @@ table {
 }
 
 .badge_mb {
-    background: #ed2a26;
+    background: #139893;
     color: #fff;
     font-weight: 500;
     font-family: 'Roboto', sans-serif;
@@ -2781,7 +2787,7 @@ table {
 }
 
 .badge_min {
-    background: #ed2a26;
+    background: #139893;
     color: #fff;
     font-weight: 500;
     font-family: 'Roboto', sans-serif;
@@ -2792,7 +2798,7 @@ table {
     top: 3px;
     width: 60px;
     font-size: 12px;
-    padding: 9px;
+    padding: 7px 15px;
 }
 
 .ui[class*="left icon"].swdh55.input>input {
@@ -2814,7 +2820,7 @@ table {
     font-weight: 500;
     font-family: 'Roboto', sans-serif;
     color: #fff;
-    background: #ed2a26;
+    background: #139893;
     padding: 0px 30px;
     border-radius: 25px;
     border: 0;
@@ -2892,7 +2898,7 @@ table {
     font-weight: 500;
     font-family: 'Roboto', sans-serif;
     color: #fff;
-    background: #ed2a26;
+    background: #139893;
     padding: 0px 30px;
     border-radius: 25px;
     border: 0;
@@ -2949,7 +2955,7 @@ i.icon8 {
 }
 
 .chat__message__dt.active, .chat__message__dt:hover {
-    border-left: 4px solid #ed2a26;
+    border-left: 4px solid #139893;
 	background: #ffecec;
 }
 
@@ -2980,7 +2986,7 @@ i.icon8 {
     border: 2px solid #fff;
     height: 22px;
     width: 22px;
-    background: #ed2a26;
+    background: #139893;
     position: absolute;
     left: 10px;
     bottom: 2px;
@@ -3226,7 +3232,7 @@ i.icon8 {
 .message-inner-dt > p {
 	float: left;
 	width: 60%;
-	background-color: #ed2a26;
+	background-color: #139893;
 	font-size: 14px;
 	font-family: 'Roboto', sans-serif;
 	line-height: 22px;
@@ -3288,7 +3294,7 @@ i.icon8 {
 	font-weight: 500;
 	font-size: 18px;
 	color: #fff;
-	background: #ed2a26;
+	background: #139893;
 	height: 40px;
 	float: left;
 }
@@ -3307,7 +3313,7 @@ i.icon8 {
     width: 50px;
     font-size: 18px;
     color: #fff;
-    background: #ed2a26;
+    background: #139893;
 }
 
 .add_photo:hover {
@@ -3334,7 +3340,7 @@ i.icon8 {
     float: right;
     padding: 10px 20px;
     color: #fff;
-    background: #ed2a26;
+    background: #139893;
     border-radius: 20px;
     font-size: 14px;
     font-weight: 500;
@@ -3566,7 +3572,7 @@ i.icon8 {
     border: 0;
     height: 26px;
     width: 26px;
-    background: #ed2a26;
+    background: #139893;
     color: #fff;
     font-size: 14px;
 }
@@ -3861,7 +3867,7 @@ i.icon8 {
 }
 
 .payout__btn {
-    background: #ed2a26;
+    background: #139893;
     color: #fff;
     float: left;
     width: 100%;
@@ -3931,7 +3937,7 @@ i.icon8 {
 }
 
 .js-earnings__fees-wrapper {
-	color: #ed2a26;
+	color: #139893;
 }
 
 .statement_invoice_content {
@@ -3948,7 +3954,7 @@ i.icon8 {
     padding: 0 8px;
     border-radius: 100%;
     margin-right: 10px;
-    background: #ed2a26;
+    background: #139893;
 }
 
 .st_download_btn:hover {
@@ -4063,7 +4069,7 @@ i.icon8 {
 
 .edututs_required_img i {
     font-size: 36px;
-    color: #ed2a26;
+    color: #139893;
 }
 
 .apply_verify_text {
@@ -4095,7 +4101,7 @@ i.icon8 {
     font-weight: 500;
     font-family: 'Roboto', sans-serif;
     color: #fff;
-    background: #ed2a26;
+    background: #139893;
     padding: 0px 30px;
     border-radius: 25px;
     border: 0;

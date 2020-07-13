@@ -8020,6 +8020,12 @@ a.rmv-btn i {
     border-radius: unset!important;
 }
 .create_btn_dash , .card_dash_left1 h1 , .crsedt145, .crse-perf-left, .crse-perf-right, .cr1fot50, .crsedt8145
-, .subcribe_title , .my_courses_tabs .nav-pills .nav-link , .ucp-table tbody tr td{
-    font-family: inherit;
+, .subcribe_title , .my_courses_tabs .nav-pills .nav-link , .ucp-table tbody tr td , .card-body p , .card-body h2,
+.analysis_card .card-header h2 ,
+ .text-uppercase, #add-course-tab .step-steps > li > a > .step-name , .ui.form.swdh339 textarea, .view_img_right p,
+ .badge_min , .part_btn_save ,.save_content_btn, #add-course-tab .step-footer.step-tab-pager button{
+    font-family: inherit!important;
+}
+h1:last-child, h2:last-child, h3:last-child, h4:last-child, h5:last-child{
+    display: flex;
 }
