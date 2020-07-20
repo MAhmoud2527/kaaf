@@ -227,7 +227,7 @@ expandLink.click(function(){
     console.log({isAllOpen: isAllOpen, contentAreas: contentAreas})
     contentAreas[isAllOpen? 'slideDown': 'slideUp']();
     
-    expandLink.text(isAllOpen? 'Collapse All': 'Expand all')
+    expandLink.text(isAllOpen? 'غلق الكل': 'فتح الكل')
                 .data('isAllOpen', isAllOpen);    
 });
 
